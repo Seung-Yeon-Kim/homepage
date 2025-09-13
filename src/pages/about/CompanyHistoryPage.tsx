@@ -60,7 +60,7 @@ export const CompanyHistoryPage: FC = () => {
         { month: '2014', content: '테스트커버리지 솔루션 출시' },
         { month: '2013', content: '주식회사 전환' },
         { month: '2011', content: '강남 본사 이전' },
-        { month: '2009', content: 'IT Solutions 설립' }
+        { month: '2009', content: 'BEYOND CORP. 설립' }
       ]
     }
   ]

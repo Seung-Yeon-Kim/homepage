@@ -152,7 +152,7 @@ export const ClientsPage: FC = () => {
           <div class="max-w-3xl mx-auto text-center">
             <i class="fas fa-quote-left text-4xl mb-4 opacity-50"></i>
             <p class="text-xl mb-6 italic">
-              "IT Solutions와 함께한 디지털 전환 프로젝트는 저희 회사의 미래를 바꾸어 놓았습니다.
+              "BEYOND CORP.와 함께한 디지털 전환 프로젝트는 저희 회사의 미래를 바꾸어 놓았습니다.
               전문적인 기술력과 헌신적인 지원 덕분에 목표를 초과 달성할 수 있었습니다."
             </p>
             <div>

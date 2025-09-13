@@ -12,9 +12,9 @@ export const CompanyIntroPage: FC = () => {
       {/* Company Overview */}
       <section class="mb-16">
         <div class="bg-white rounded-xl shadow-lg p-8">
-          <h2 class="text-2xl font-bold text-gray-800 mb-6">IT Solutions Company</h2>
+          <h2 class="text-2xl font-bold text-gray-800 mb-6">BEYOND CORP.</h2>
           <p class="text-gray-600 leading-relaxed mb-6">
-            IT Solutions는 2009년 설립 이래 15년간 축적된 기술력과 노하우를 바탕으로
+            BEYOND CORP.는 2009년 설립 이래 15년간 축적된 기술력과 노하우를 바탕으로
             고객의 디지털 혁신을 선도하는 IT 전문 기업입니다.
           </p>
           <p class="text-gray-600 leading-relaxed mb-6">

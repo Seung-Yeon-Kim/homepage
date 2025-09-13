@@ -57,7 +57,7 @@ export const Layout: FC<LayoutProps> = ({ title, currentPath, children }) => {
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{title} - IT Solutions Company</title>
+        <title>{title} - BEYOND CORP.</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet" />
         <link href="/static/styles.css" rel="stylesheet" />
@@ -69,9 +69,8 @@ export const Layout: FC<LayoutProps> = ({ title, currentPath, children }) => {
             <div class="flex items-center justify-between h-20">
               {/* Logo */}
               <div class="flex items-center">
-                <a href="/" class="flex items-center space-x-3">
-                  <i class="fas fa-microchip text-3xl text-blue-600"></i>
-                  <span class="text-2xl font-bold text-gray-800">IT Solutions</span>
+                <a href="/" class="flex items-center">
+                  <img src="/static/images/logo.png" alt="BEYOND CORP." class="h-12 w-auto" />
                 </a>
               </div>
 
@@ -154,7 +153,7 @@ export const Layout: FC<LayoutProps> = ({ title, currentPath, children }) => {
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
               {/* Company Info */}
               <div>
-                <h3 class="text-xl font-bold mb-4">IT Solutions</h3>
+                <h3 class="text-xl font-bold mb-4">BEYOND CORP.</h3>
                 <p class="text-gray-400 mb-4">
                   혁신적인 IT 솔루션으로<br />
                   고객의 비즈니스 성공을 지원합니다.
@@ -200,7 +199,7 @@ export const Layout: FC<LayoutProps> = ({ title, currentPath, children }) => {
                   </li>
                   <li class="flex items-center">
                     <i class="fas fa-envelope mr-2"></i>
-                    info@itsolutions.co.kr
+                    info@beyondcorp.co.kr
                   </li>
                 </ul>
               </div>
@@ -217,7 +216,7 @@ export const Layout: FC<LayoutProps> = ({ title, currentPath, children }) => {
             </div>
 
             <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; 2024 IT Solutions. All rights reserved.</p>
+              <p>&copy; 2024 BEYOND CORP. All rights reserved.</p>
             </div>
           </div>
         </footer>
